@@ -168,6 +168,9 @@ main #colors p {
 }
 
 main #fonts {
+  border: 1px solid blue;
+  background-color: #C3396A;
+  padding: 20px;
   /* border: 1px solid blue; */
   height: 387px;
   width: 1022px;
