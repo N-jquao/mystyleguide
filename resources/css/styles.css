@@ -52,6 +52,7 @@ body {
 #header ul li a:hover {
   color: rgb(202, 200, 200);
   text-decoration: underline;
+  font-size: 20px;
 }
 
 .anchor {
@@ -168,8 +169,8 @@ main #colors p {
 }
 
 main #fonts {
-  background-color: #C3396A;
   border-radius: 10px;
+  background-color: hsl(339, 55%, 49%, 0.4);
   padding: 20px;
   /* border: 1px solid blue; */
   height: 387px;
@@ -191,6 +192,9 @@ main #fonts p {
 }
 
 main #text_styles {
+  border-radius: 10px;
+  background-color: hsl(194, 35%, 52%, 0.4);
+  padding: 20px;
   /* border: 1px solid blue; */
   height: 546.5px;
   width: 1022px;
