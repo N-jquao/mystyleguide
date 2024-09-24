@@ -1,0 +1,382 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  margin-bottom: 3700px;
+}
+
+#header {
+  height: 520px;
+  width: 100%;
+  background-image: linear-gradient(75deg, #C3396A, #4D2F74);
+  position: absolute;
+  top: 0;
+  z-index: 1;
+
+}
+
+.styleguide {
+  color: white;
+  font-family: poppins;
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: -3%;
+  margin-top: 18px;
+  margin-left: 118px;
+  display: inline-block;
+}
+
+#header ul {
+  display: inline-block;
+  vertical-align: center;
+  margin-left: 508px;
+  margin-right: 58px;
+}
+
+#header ul li {
+  display: inline-block;
+  width: 100px;
+
+}
+
+#header ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: alata;
+  font-size: 18px;
+  letter-spacing: -3%;
+}
+
+#header ul li a:hover {
+  color: rgb(202, 200, 200);
+  text-decoration: underline;
+}
+
+.anchor {
+  height: 220px;
+  width: 12px;
+  background-color: #3C0058;
+  margin-top: 130px;
+  margin-left: 160px;
+  display: inline-block;
+}
+
+.headertext p {
+  font-family: alata;
+  font-size: 60px;
+  color: #3C0058;
+  width: 700px;
+  display: inline-block;
+  position: absolute;
+  z-index: 2;
+  letter-spacing: -3%;
+  line-height: 68px;
+  margin-left: 15px;
+  margin-top: 132px;
+}
+
+main #colors {
+  /* border: 1px solid blue; */
+  height: 1528.5px;
+  width: 1022px;
+  position: absolute;
+  top: 680px;
+  left: 118px;
+  z-index: 1;
+}
+
+main #colors p {
+  font-family: alata;
+  font-size: 26px;
+  color: #024A9E;
+  line-height: 0.8;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+.backbox {
+  height: 320px;
+  width: 550px;
+  background-color: hsl(30, 6%, 94%, 0.7);
+  display: block;
+  border-radius: 8px;
+  margin-top: 50px;
+  margin-left: 472px;
+
+}
+
+
+.gray {
+  height: 284px;
+  width: 284px;
+  border-radius: 10px;
+  background-color: #687E8C;
+  margin-top: 18px;
+  margin-left: 18px;
+  position: absolute;
+  display: inline-block;
+}
+
+#colors .backbox p {
+  margin-top: 90px;
+  margin-left: 330px;
+  font-size: 26px;
+  display: inline-block;
+  line-height: 40px;
+}
+
+#colors .backbox p span{ 
+  font-size: 21px;
+  margin-left: 10px;
+  
+}
+
+.blue {
+  height: 284px;
+  width: 284px;
+  border-radius: 10px;
+  background-color: #5B9CB0;
+  margin-top: 18px;
+  margin-left: 18px;
+  position: absolute;
+  display: inline-block;
+}
+
+.maroon {
+  height: 284px;
+  width: 284px;
+  border-radius: 10px;
+  background-color: #8A394C;
+  margin-top: 18px;
+  margin-left: 18px;
+  position: absolute;
+  display: inline-block;
+}
+
+.purple {
+  height: 284px;
+  width: 284px;
+  border-radius: 10px;
+  background-color: #503949;
+  margin-top: 18px;
+  margin-left: 18px;
+  position: absolute;
+  display: inline-block;
+}
+
+main #fonts {
+  /* border: 1px solid blue; */
+  height: 387px;
+  width: 1022px;
+  position: absolute;
+  top: 2358.5px;
+  left: 118px;
+  z-index: 1;
+}
+
+main #fonts p {
+  font-family: alata;
+  font-size: 26px;
+  color: #024A9E;
+  line-height: 0.8;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+main #text_styles {
+  /* border: 1px solid blue; */
+  height: 546.5px;
+  width: 1022px;
+  position: absolute;
+  top: 2945px;
+  left: 118px;
+  z-index: 1;
+}
+
+main #text_styles p {
+  font-family: alata;
+  font-size: 26px;
+  color: #024A9E;
+  line-height: 0.8;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+#fonts .grid_container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  gap: 10px;
+}
+
+#fonts .grid_container .grid_item {
+  padding-top: 30px;
+}
+
+.grid_item .nanum {
+  font-family: 'Nanum Gothic Coding';
+  display: block;
+  font-size: 26px;
+}
+
+.grid_item .nanum .zero {
+  font-family: 'Nanum Gothic Coding';
+  font-weight: 500;
+  color: #2A2A2A;
+  display: block;
+  font-size: 26px;
+}
+
+.grid_item .nanum .whole { 
+  font-family: 'Nanum Gothic Coding';
+  font-size: 21px;
+  line-height: 160%;
+  color: #2A2A2A;
+}
+
+.grid_item .nanum .whole .one {
+  font-family: 'Nanum Gothic Coding';
+  font-weight: normal;
+ 
+}
+
+.grid_item .nanum .whole .two {
+  font-family: 'Nanum Gothic Coding';
+  font-weight: bold;
+  
+}
+
+.grid_item .nanum .whole .three {
+  font-family: 'Nanum Gothic Coding';
+  font-style: italic;
+  font-weight: normal;
+}
+
+
+
+.grid_item .outfit {
+  font-family: outfit;
+  display: block;
+  font-size: 26px;
+}
+
+.grid_item .outfit .four {
+  font-family: outfit;
+  font-weight: 500;
+  color: #2A2A2A;
+  display: block;
+  font-size: 26px;
+}
+
+.grid_item .outfit .whole2 { 
+  font-family: outfit;
+  font-size: 21px;
+  line-height: 170%;
+  color: #2A2A2A;
+}
+
+.grid_item .outfit .whole2 .one {
+  font-family: outfit;
+  font-weight: normal;
+ 
+}
+
+.grid_item .outfit .whole2 .two {
+  font-family: outfit;
+  font-weight: bold;
+  
+}
+
+.grid_item .outfit .whole2 .three {
+  font-family: outfit;
+  font-style: italic;
+  font-weight: normal;
+}
+
+
+
+
+
+
+
+.grid_item .poppins {
+  font-family: poppins;
+  display: block;
+  font-size: 26px;
+}
+
+.grid_item .poppins .five {
+  font-family: poppins;
+  font-weight: 500;
+  color: #2A2A2A;
+  display: block;
+  font-size: 26px;
+}
+
+.grid_item .poppins .whole3 { 
+  font-family: poppins;
+  font-size: 21px;
+  line-height: 170%;
+  color: #2A2A2A;
+}
+
+.grid_item .poppins .whole3 .one {
+  font-family: poppins;
+  font-weight: normal;
+ 
+}
+
+.grid_item .poppins .whole3 .two {
+  font-family: poppins;
+  font-weight: bold;
+  
+}
+
+.grid_item .poppins .whole3 .three {
+  font-family: poppins;
+  font-style: italic;
+  font-weight: normal;
+}
+
+
+
+
+
+#text_styles div .h_one {
+  margin-top: 40px;
+  font-family: outfit;
+  font-size: 30px;
+  color: #2A2A2A;
+  font-weight: 700;
+}
+
+#text_styles div .h_two {
+  margin-top: 40px;
+  font-family: poppins;
+  font-size: 26px;
+  color: #2A2A2A;
+  font-weight: 500;
+}
+
+#text_styles div .p_one {
+  margin-top: 40px;
+  font-family: poppins;
+  font-size: 21px;
+  color: #2A2A2A;
+  font-weight: 400;
+}
+
+#text_styles div ul {
+  margin-top: 15px;
+  margin-left: 26px;
+  font-family: poppins;
+  font-size: 21px;
+  color: #2A2A2A;
+  font-weight: normal;
+  line-height: 150%;
+}
